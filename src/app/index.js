@@ -12,11 +12,7 @@ import { Home } from './components/Home';
 
 class App extends React.Component {
   render() {
-    let user = {
-      name:"Darren",
-      age: 31,
-      hobbies: ['sports','video games','coding','hiking']
-    };
+
     return (
       <div className='container'>
 
@@ -30,7 +26,10 @@ class App extends React.Component {
 
         <div className='row'>
           <div className='home-in-row'>
-            <Home name={'homepage'} age={31} user={user}/>
+            <Home name={'Darren'} initialAge={31}/>
+            <Home name={'Amelia'} initialAge={1}/>
+            <Home name={'Veronica'} initialAge={30}/>
+
           </div>
         </div>
 
