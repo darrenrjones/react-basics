@@ -35,9 +35,10 @@ export class Home extends React.Component {
   }
 
   render() {
+    const origName = this.state.name;
     return(
       <div className='paragraph-div'>
-        <p>This is a paragraph in a new Component for {this.state.name}!!!</p>    
+        <p>This is a paragraph in a new Component for {origName}!!!</p>    
         <p> Name: {this.state.name} <br></br>Age: {this.state.age}</p>              
         
         <button className='ageBtn' onClick={() => this.onMakeOlder()}>Make Me older!</button>
