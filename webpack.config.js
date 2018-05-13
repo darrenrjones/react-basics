@@ -15,6 +15,7 @@ var config = {
   mode: 'development',
   module: {
     rules: [
+      { test: /\.css$/, loader: 'style-loader!css-loader' },
       {
         test: /\.js?/,
         include: SRC_DIR,

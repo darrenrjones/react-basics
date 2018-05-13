@@ -1,0 +1,16 @@
+.nav-list {
+  color: whitesmoke;
+  list-style-type: none;
+  /* margin: 0;
+  padding: 0; */
+}
+
+.nav-list a:hover {
+  /* background-color: rgb(212, 171, 171); */
+  color: white;
+  font-weight: 900;
+}
+.nav-list a{
+  /* background-color: rgb(179, 164, 164); */
+  color: white;
+}
